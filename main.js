@@ -5,6 +5,8 @@ import { GLTFLoader } from 'three/examples/jsm//loaders/GLTFLoader.js';
 
 let camera, scene, renderer;
 
+import glbModelMegaphone from './src/gltf/Megaphone.glb';
+
 init();
 
 function init() {
@@ -17,9 +19,9 @@ function init() {
 
 	scene = new THREE.Scene();
 
-	const loader = new GLTFLoader().setPath( './src/gltf/' );
+	const loader = new GLTFLoader();
 
-	loader.load( 'Megaphone.glb', async function ( gltf ) {
+	loader.load( glbModelMegaphone, async function ( gltf ) {
 
 		const model = gltf.scene;
 
