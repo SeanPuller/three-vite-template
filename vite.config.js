@@ -1,5 +1,6 @@
 export default {
     // config options
-    base: 'https://pages.ghe.oculus-rep.com/Metaworks-Art/Threejs-Example/',
+    base: 'https://seanpuller.github.io/three-vite-template/',
     assetsInclude: ['**/*.glb']
   }
+  
