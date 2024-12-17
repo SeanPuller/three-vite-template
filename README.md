@@ -41,13 +41,13 @@ Add a vite.config.js file with name of site. **Assets should be placed in the sr
 ```
 export default {
     // config options
-    base: 'https://pages.ghe.oculus-rep.com/Metaworks-Art/Threejs-Example/',
+    base: 'https://seanpuller.github.io/three-vite-template/',
     assetsInclude: ['**/*.glb']
   }
   ```
 Add lines to package.json
 ```
- "homepage": "https://pages.ghe.oculus-rep.com/Metaworks-Art/Threejs-Example/",
+ "homepage": "https://seanpuller.github.io/three-vite-template/",
  
   "scripts": {
     "predeploy": "npm run build",
